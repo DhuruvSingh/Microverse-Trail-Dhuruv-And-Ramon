@@ -25,7 +25,7 @@
     <h1 id="title">Classmate behavior</h1>
   <p id="description">Let us know if ther behavior was the correct</p>
     <form id="survey-form">
-      <label for="html" id="name-label">Your name</label>
+      <label for="html"  id="name-label">Your name</label>
       <input type="text" id="name" name="name" placeholder="Please enter your name" required/>
       <label for="html" id="email-label">Your email</label>
       <input type="email" id="email" name="email" placeholder="please enter your email" required/>
@@ -35,6 +35,19 @@
         <option value="1"> Good</option>
         <option value="2">Bad</option>
       </select>
+
+      <input type="radio" name="behavior" value="Bad">
+      <input type="radio" name="behavior" value="Good">
+      <input type="radio" name="behavior" value="Excellent">
+
+      <input type="checkbox" value="Accept the termns?" />
+      <input type="checkbox" value="Something" />
+
+      <label for="Comment" id="comment"></label>
+      <textarea placeholder="Add your thoughts">
+
+      </textarea>
+      <input type="submit" value="Send your teammate behavior" id="submit">
     </form>
     <script  src="js/index.js"></script>
   </body>
